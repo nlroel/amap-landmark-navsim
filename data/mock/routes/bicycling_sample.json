@@ -1,0 +1,52 @@
+{
+  "status": "1",
+  "info": "OK",
+  "route": {
+    "origin": "116.481000,39.990000",
+    "destination": "116.486000,39.994500",
+    "paths": [
+      {
+        "distance": "970",
+        "duration": "300",
+        "steps": [
+          {
+            "instruction": "沿人民路向北骑行500米右转",
+            "road": "人民路",
+            "distance": "500",
+            "duration": "150",
+            "action": "右转",
+            "assistant_action": "",
+            "polyline": "116.481000,39.990000;116.481000,39.994000"
+          },
+          {
+            "instruction": "沿建设路骑行300米靠右",
+            "road": "建设路",
+            "distance": "300",
+            "duration": "90",
+            "action": "靠右",
+            "assistant_action": "",
+            "polyline": "116.481000,39.994000;116.484000,39.994000"
+          },
+          {
+            "instruction": "前方右前方行驶",
+            "road": "",
+            "distance": "120",
+            "duration": "40",
+            "action": "右前方行驶",
+            "assistant_action": "",
+            "polyline": "116.484000,39.994000;116.485000,39.994400"
+          },
+          {
+            "instruction": "到达目的地",
+            "road": "",
+            "distance": "50",
+            "duration": "20",
+            "action": "到达目的地",
+            "assistant_action": "",
+            "polyline": "116.485000,39.994400;116.486000,39.994500"
+          }
+        ]
+      }
+    ]
+  }
+}

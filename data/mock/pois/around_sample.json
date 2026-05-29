@@ -1,0 +1,34 @@
+{
+  "status": "1",
+  "info": "OK",
+  "pois": [
+    {
+      "id": "traffic-light-1",
+      "name": "红绿灯",
+      "type": "交通设施服务;交通服务相关",
+      "location": "116.481050,39.994020",
+      "distance": "18"
+    },
+    {
+      "id": "bank-1",
+      "name": "工商银行",
+      "type": "金融保险服务;银行",
+      "location": "116.483900,39.994050",
+      "distance": "32"
+    },
+    {
+      "id": "wanda-1",
+      "name": "万达广场",
+      "type": "购物服务;商场",
+      "location": "116.485200,39.994450",
+      "distance": "40"
+    },
+    {
+      "id": "building-1",
+      "name": "时代中心",
+      "type": "商务住宅;楼宇",
+      "location": "116.486100,39.994520",
+      "distance": "60"
+    }
+  ]
+}

@@ -2,6 +2,17 @@
 
 本文档将项目拆分为 10 个可验收阶段。每个 Phase 都包含目标、需要新增或修改的模块路径、CLI 行为、测试文件与验收命令，便于按阶段实现、测试与评审。
 
+
+## Implementation Status
+
+- Phase 1 through Phase 10 now have an initial runnable MVP implementation in this repository.
+- The first project skeleton includes Typer CLI entry points, Pydantic models, Amap/Mock clients, parsers, GPS simulation, event detection, landmark ranking, instruction rewriting, pipeline artifacts, GeoJSON/HTML visualization, evaluation helpers, mock data, and pytest coverage.
+- Current acceptance commands are:
+  - `uv run landmark-nav run-mock --sample data/mock/route_bicycling_sample.json --out-dir outputs/mock_demo`
+  - `uv run pytest`
+  - `uv run ruff check .`
+  - `uv run mypy src`
+
 ## Phase 1：项目骨架
 
 ### 目标
